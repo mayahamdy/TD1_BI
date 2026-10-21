@@ -17,3 +17,6 @@ I guessed Madrid because it might have a good balance of weather and distance fr
 
 ## Monitoring
 I'd check the "Data last updated" time; if it's old, the workflow may have stopped. I'd add a warning for stale data, since visitors might not know when the timestamp should have changed.
+
+## The unguided step
+I changed the origin coordinates and filtering in `scripts/fetch_and_score.py`, then added the origin to the JSON so `docs/index.html` can show it in the title. The best destination isn't absolute: it depends on where the trip starts and on that week's weather.
