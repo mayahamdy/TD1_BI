@@ -1,0 +1,44 @@
+name: Update capitals ranking
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/update-data.yml
+      - eu-capitals-dashboard/data/**
+      - eu-capitals-dashboard/docs/**
+      - eu-capitals-dashboard/scripts/**
+      - docs/**
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: eu-capitals-dashboard
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - run: python scripts/fetch_and_score.py
+      - name: Publish updated rankings to branch-based Pages
+        working-directory: .
+        run: |
+          mkdir -p docs/data
+          cp eu-capitals-dashboard/docs/data/rankings.json docs/data/rankings.json
+          git add docs/data/rankings.json
+          if ! git diff --cached --quiet; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git commit -m "Update rankings [automated]"
+            git push
+          fi
