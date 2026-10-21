@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T09:07:17Z",
+  "generated_at": "2026-10-21T09:31:43Z",
   "origin": {
     "name": "London",
     "lat": 51.5074,
@@ -17,9 +17,9 @@
       "avg_max_temp": 18.5,
       "total_precip_mm": 0.0,
       "avg_sunshine_s": 36010.0,
-      "weather_score": 0.803,
+      "weather_score": 0.805,
       "co2_score": 0.675,
-      "final_score": 0.739
+      "final_score": 0.74
     },
     {
       "country": "Portugal",
@@ -31,9 +31,9 @@
       "avg_max_temp": 22.4,
       "total_precip_mm": 0.0,
       "avg_sunshine_s": 37054.0,
-      "weather_score": 0.898,
+      "weather_score": 0.899,
       "co2_score": 0.564,
-      "final_score": 0.731
+      "final_score": 0.732
     },
     {
       "country": "France",
@@ -45,9 +45,9 @@
       "avg_max_temp": 15.2,
       "total_precip_mm": 26.3,
       "avg_sunshine_s": 12577.0,
-      "weather_score": 0.371,
+      "weather_score": 0.367,
       "co2_score": 0.992,
-      "final_score": 0.681
+      "final_score": 0.679
     },
     {
       "country": "Ireland",
@@ -57,11 +57,11 @@
       "distance_km": 463.3,
       "co2_kg_roundtrip": 139.0,
       "avg_max_temp": 13.6,
-      "total_precip_mm": 46.1,
+      "total_precip_mm": 47.2,
       "avg_sunshine_s": 22686.0,
-      "weather_score": 0.389,
+      "weather_score": 0.376,
       "co2_score": 0.951,
-      "final_score": 0.67
+      "final_score": 0.663
     },
     {
       "country": "Italy",
@@ -71,11 +71,11 @@
       "distance_km": 1433.8,
       "co2_kg_roundtrip": 430.1,
       "avg_max_temp": 20.1,
-      "total_precip_mm": 36.0,
+      "total_precip_mm": 35.9,
       "avg_sunshine_s": 30571.0,
-      "weather_score": 0.653,
+      "weather_score": 0.646,
       "co2_score": 0.616,
-      "final_score": 0.635
+      "final_score": 0.631
     },
     {
       "country": "Belgium",
@@ -85,25 +85,11 @@
       "distance_km": 320.6,
       "co2_kg_roundtrip": 96.2,
       "avg_max_temp": 13.3,
-      "total_precip_mm": 48.2,
+      "total_precip_mm": 46.9,
       "avg_sunshine_s": 10559.0,
-      "weather_score": 0.234,
+      "weather_score": 0.229,
       "co2_score": 1.0,
-      "final_score": 0.617
-    },
-    {
-      "country": "Netherlands",
-      "capital": "Amsterdam",
-      "lat": 52.3676,
-      "lon": 4.9041,
-      "distance_km": 357.9,
-      "co2_kg_roundtrip": 107.4,
-      "avg_max_temp": 13.3,
-      "total_precip_mm": 61.8,
-      "avg_sunshine_s": 13286.0,
-      "weather_score": 0.22,
-      "co2_score": 0.987,
-      "final_score": 0.604
+      "final_score": 0.615
     },
     {
       "country": "Czechia",
@@ -115,9 +101,9 @@
       "avg_max_temp": 12.9,
       "total_precip_mm": 17.1,
       "avg_sunshine_s": 20966.0,
-      "weather_score": 0.451,
+      "weather_score": 0.45,
       "co2_score": 0.754,
-      "final_score": 0.603
+      "final_score": 0.602
     },
     {
       "country": "Malta",
@@ -129,9 +115,23 @@
       "avg_max_temp": 22.9,
       "total_precip_mm": 2.4,
       "avg_sunshine_s": 29232.0,
-      "weather_score": 0.809,
+      "weather_score": 0.81,
       "co2_score": 0.39,
       "final_score": 0.6
+    },
+    {
+      "country": "Netherlands",
+      "capital": "Amsterdam",
+      "lat": 52.3676,
+      "lon": 4.9041,
+      "distance_km": 357.9,
+      "co2_kg_roundtrip": 107.4,
+      "avg_max_temp": 13.0,
+      "total_precip_mm": 61.1,
+      "avg_sunshine_s": 13286.0,
+      "weather_score": 0.204,
+      "co2_score": 0.987,
+      "final_score": 0.596
     },
     {
       "country": "Austria",
@@ -169,11 +169,11 @@
       "distance_km": 1288.0,
       "co2_kg_roundtrip": 386.4,
       "avg_max_temp": 15.2,
-      "total_precip_mm": 28.7,
+      "total_precip_mm": 28.9,
       "avg_sunshine_s": 24219.0,
-      "weather_score": 0.499,
+      "weather_score": 0.494,
       "co2_score": 0.666,
-      "final_score": 0.583
+      "final_score": 0.58
     },
     {
       "country": "Hungary",
@@ -199,9 +199,9 @@
       "avg_max_temp": 12.4,
       "total_precip_mm": 27.8,
       "avg_sunshine_s": 13663.0,
-      "weather_score": 0.319,
+      "weather_score": 0.316,
       "co2_score": 0.781,
-      "final_score": 0.55
+      "final_score": 0.548
     },
     {
       "country": "Luxembourg",
@@ -210,12 +210,12 @@
       "lon": 6.1319,
       "distance_km": 489.6,
       "co2_kg_roundtrip": 146.9,
-      "avg_max_temp": 11.5,
-      "total_precip_mm": 55.5,
+      "avg_max_temp": 11.3,
+      "total_precip_mm": 53.5,
       "avg_sunshine_s": 8679.0,
-      "weather_score": 0.149,
+      "weather_score": 0.142,
       "co2_score": 0.942,
-      "final_score": 0.545
+      "final_score": 0.542
     },
     {
       "country": "Poland",
@@ -227,9 +227,9 @@
       "avg_max_temp": 13.4,
       "total_precip_mm": 17.7,
       "avg_sunshine_s": 21746.0,
-      "weather_score": 0.469,
+      "weather_score": 0.468,
       "co2_score": 0.611,
-      "final_score": 0.54
+      "final_score": 0.539
     },
     {
       "country": "Latvia",
@@ -241,9 +241,9 @@
       "avg_max_temp": 12.4,
       "total_precip_mm": 4.2,
       "avg_sunshine_s": 23300.0,
-      "weather_score": 0.511,
+      "weather_score": 0.514,
       "co2_score": 0.532,
-      "final_score": 0.522
+      "final_score": 0.523
     },
     {
       "country": "Estonia",
@@ -255,9 +255,9 @@
       "avg_max_temp": 11.7,
       "total_precip_mm": 1.5,
       "avg_sunshine_s": 24162.0,
-      "weather_score": 0.515,
+      "weather_score": 0.519,
       "co2_score": 0.495,
-      "final_score": 0.505
+      "final_score": 0.507
     },
     {
       "country": "Cyprus",
@@ -274,20 +274,6 @@
       "final_score": 0.485
     },
     {
-      "country": "Croatia",
-      "capital": "Zagreb",
-      "lat": 45.815,
-      "lon": 15.9819,
-      "distance_km": 1337.8,
-      "co2_kg_roundtrip": 401.3,
-      "avg_max_temp": 13.7,
-      "total_precip_mm": 41.6,
-      "avg_sunshine_s": 15000.0,
-      "weather_score": 0.316,
-      "co2_score": 0.649,
-      "final_score": 0.483
-    },
-    {
       "country": "Lithuania",
       "capital": "Vilnius",
       "lat": 54.6872,
@@ -297,9 +283,23 @@
       "avg_max_temp": 12.8,
       "total_precip_mm": 2.4,
       "avg_sunshine_s": 15765.0,
-      "weather_score": 0.437,
+      "weather_score": 0.441,
       "co2_score": 0.516,
-      "final_score": 0.477
+      "final_score": 0.479
+    },
+    {
+      "country": "Croatia",
+      "capital": "Zagreb",
+      "lat": 45.815,
+      "lon": 15.9819,
+      "distance_km": 1337.8,
+      "co2_kg_roundtrip": 401.3,
+      "avg_max_temp": 13.7,
+      "total_precip_mm": 45.5,
+      "avg_sunshine_s": 15000.0,
+      "weather_score": 0.295,
+      "co2_score": 0.649,
+      "final_score": 0.472
     },
     {
       "country": "Bulgaria",
@@ -311,9 +311,9 @@
       "avg_max_temp": 17.1,
       "total_precip_mm": 24.0,
       "avg_sunshine_s": 21453.0,
-      "weather_score": 0.523,
+      "weather_score": 0.519,
       "co2_score": 0.415,
-      "final_score": 0.469
+      "final_score": 0.467
     },
     {
       "country": "Finland",
@@ -325,9 +325,23 @@
       "avg_max_temp": 11.5,
       "total_precip_mm": 9.8,
       "avg_sunshine_s": 20435.0,
-      "weather_score": 0.44,
+      "weather_score": 0.441,
       "co2_score": 0.482,
-      "final_score": 0.461
+      "final_score": 0.462
+    },
+    {
+      "country": "Greece",
+      "capital": "Athens",
+      "lat": 37.9838,
+      "lon": 23.7275,
+      "distance_km": 2391.6,
+      "co2_kg_roundtrip": 717.5,
+      "avg_max_temp": 21.3,
+      "total_precip_mm": 19.4,
+      "avg_sunshine_s": 21422.0,
+      "weather_score": 0.623,
+      "co2_score": 0.285,
+      "final_score": 0.454
     },
     {
       "country": "Sweden",
@@ -339,9 +353,9 @@
       "avg_max_temp": 11.6,
       "total_precip_mm": 13.5,
       "avg_sunshine_s": 8537.0,
-      "weather_score": 0.29,
+      "weather_score": 0.291,
       "co2_score": 0.616,
-      "final_score": 0.453
+      "final_score": 0.454
     },
     {
       "country": "Romania",
@@ -353,23 +367,9 @@
       "avg_max_temp": 17.3,
       "total_precip_mm": 7.9,
       "avg_sunshine_s": 11138.0,
-      "weather_score": 0.46,
+      "weather_score": 0.461,
       "co2_score": 0.389,
-      "final_score": 0.424
-    },
-    {
-      "country": "Greece",
-      "capital": "Athens",
-      "lat": 37.9838,
-      "lon": 23.7275,
-      "distance_km": 2391.6,
-      "co2_kg_roundtrip": 717.5,
-      "avg_max_temp": 21.3,
-      "total_precip_mm": 44.3,
-      "avg_sunshine_s": 21422.0,
-      "weather_score": 0.544,
-      "co2_score": 0.285,
-      "final_score": 0.414
+      "final_score": 0.425
     },
     {
       "country": "Slovenia",
@@ -379,11 +379,11 @@
       "distance_km": 1228.5,
       "co2_kg_roundtrip": 368.5,
       "avg_max_temp": 12.5,
-      "total_precip_mm": 99.6,
+      "total_precip_mm": 92.2,
       "avg_sunshine_s": 14878.0,
-      "weather_score": 0.095,
+      "weather_score": 0.099,
       "co2_score": 0.687,
-      "final_score": 0.391
+      "final_score": 0.393
     }
   ]
 }
